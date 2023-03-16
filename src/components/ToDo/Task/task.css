@@ -1,0 +1,57 @@
+.task_container {
+    position: relative;
+    width: 100%;
+    margin-bottom: .75rem;
+}
+
+.task {
+    background: var(--input-fill);
+    border: 1px solid var(--input-border);
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 18px;
+}
+
+.task p {
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--white);
+    margin-right: auto;
+    transform: translateY(1px);
+}
+
+p.textCompleted {
+    color: #808080;
+    text-decoration: line-through;
+}
+
+.checkContainer {
+    width: 18px;
+    height: 18px;
+    background: none;
+    border: none;
+}
+
+.checkContainer div {
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    border: 1.6px solid var(--off-white);
+}
+
+.checkContainer svg {
+    width: 22px;
+    height: 22px;
+    color: var(--accent-color);
+    transform: translate(-1.3px, -2px);
+}
+
+.deleteButton {
+    background: none;
+    border: none;
+    color: var(--off-white);
+}

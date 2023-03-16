@@ -1,0 +1,27 @@
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --off-white: rgba(163, 162, 163, 1);
+    --off-black: rgba(14, 14, 15, 1);
+    --rustic-brown: rgba(75, 64, 52, 1);
+    --accent-color: rgba(118, 100, 60, 1);
+    --input-fill: #262626;
+    --input-border: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Slab', serif;
+}
+
+body {
+    margin: 1rem;
+    background: rgba(25, 26, 27, 1);
+    color: var(--off-white);
+    overflow-x: hidden;
+}
+
+button {
+    cursor: pointer;
+}
